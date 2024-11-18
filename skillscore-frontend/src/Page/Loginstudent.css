@@ -1,0 +1,46 @@
+/* Loginstudent.css */
+
+/* Header styling */
+.form-header {
+    text-align: center; /* Center the text */
+    margin-bottom: 15px; /* Space between header and form */
+    font-size: 1.5em; /* Header font size */
+    color: #343a40; /* Dark text color */
+}
+
+/* Form container styling */
+.form-container {
+    padding: 20px; /* Inner padding */
+    padding-top: 20px; /* Space above the header */
+    padding-bottom: 20px; /* Space below the form */
+    margin-top: 50px; /* Space above the container */
+    margin-bottom: 50px; /* Space below the container */
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 400px; /* Set a max width for the box */
+    width: 100%; /* Full width within the max limit */
+    margin-left: auto; /* Center the container */
+    margin-right: auto; /* Center the container */
+}
+
+/* Button styling */
+.custom-button {
+    background-color: #000000; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+/* Button hover effect */
+.custom-button:hover {
+    background-color: #f30c0c; /* Darker shade on hover */
+}
+
+/* Link button styling */
+.link-button {
+    color: #000000; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin-top: 10px; /* Space above the link button */
+}

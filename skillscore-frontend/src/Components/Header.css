@@ -1,0 +1,40 @@
+/* Header.css */
+
+.custom-navbar {
+    background-color: #c3cac4; /* Set your desired background color */
+    height: 90px; /* Adjust the height of the navbar */
+    display: flex;
+    align-items: center; /* Center items vertically */
+  }
+  
+  .custom-logo {
+    width: 110px; /* Adjust the logo width */
+    height: 110px; /* Adjust the logo height */
+  }
+  
+  .custom-brand-text {
+    font-size: 34px; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    margin-left: 10px; /* Add some space between logo and text */
+  }
+  
+  .text-red {
+    color: red; /* Style Bootstrap in red */
+  }
+  
+  .text-black {
+    color: black; /* Style React in black */
+  }
+  /* Button styles */
+.custom-button {
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover */
+  }
+
+
+  

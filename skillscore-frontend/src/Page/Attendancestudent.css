@@ -1,0 +1,104 @@
+.attendance-container {
+    padding: 30px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+  }
+  
+  .month-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    color: white;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .attendance-table th {
+    background-color: #000000;
+  }
+  
+  .attended-cell {
+    font-weight: bold;
+  }
+  
+  .save-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .attendance-table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    .attendance-table th,
+    .attendance-table td {
+      padding: 6px;
+      font-size: 12px;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    .save-button {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  
+    .month-selector {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .attendance-container {
+      padding: 5px;
+    }
+  
+    h2 {
+      font-size: 1rem;
+    }
+  
+    .save-button {
+      padding: 6px 12px;
+      font-size: 10px;
+    }
+  }
+  

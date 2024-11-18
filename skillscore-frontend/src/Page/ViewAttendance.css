@@ -1,0 +1,32 @@
+.view-attendance-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items in the container */
+}
+
+.month-selector {
+    margin-bottom: 20px; /* Space below month selector */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Center the table horizontally */
+    width: 100%; /* Adjust width as necessary */
+}
+
+.attendance-table {
+    border-collapse: collapse; /* Collapse table borders */
+    margin: auto; /* Center the table */
+    width: 80%; /* Adjust table width */
+}
+
+.attendance-table th,
+.attendance-table td {
+    border: 1px solid #ccc; /* Table cell border */
+    padding: 8px;
+    text-align: center; /* Center align text in cells */
+}
+
+.attendance-table th {
+    background-color: #f2f2f2; /* Header background color */
+}

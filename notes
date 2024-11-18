@@ -1,0 +1,127 @@
+//   FRONTEND CREATION
+// ---------------------------------------------------------------------------------
+
+//  1. Project Creation : npm create vite@latest (nameof project)-frontend -- --template react
+//  2. cd   (nameof project)-frontend  
+//  3. npm install
+//  4. code .
+//  5. Run the Project : npm run dev
+//  6. Clean your project code 
+//  7. Install 3rd party libraries
+//     ->MDB Bootstrap : https://mdbootstrap.com/docs/react/
+//         -npm i mdb-react-ui-kit
+//         -npm i @fortawesome/fontawesome-free
+// Add the following lines in your main.jsx file before the App.js file import:
+//         import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+//         import "@fortawesome/fontawesome-free/css/all.min.css";
+//     -> React bootstrap : https://react-bootstrap.github.io/
+//             -npm install react-bootstrap bootstrap
+//     ->bootswatch : https://bootswatch.com/
+
+//     -> React Icons : https://react-icons.github.io/react-icons/
+
+
+//     npm install react-icons --save
+//     -> google-fonts :
+    
+//  8.Create Components Folder 
+//         ->Header.jsx
+//         ->Footer.jsx
+//         ->AddVideo.jsx
+//         ->AddCategory.jsx
+//         ->VideoCard.jsx
+//         ->ViewVideo.jsx
+//  9. Create Pages folder
+//         ->LandingPage.jsx
+//         ->Home.jsx
+//         ->WatchHistory.jsx
+//         ->PageNotFound.jsx
+
+//  10. Designing Completed.
+
+
+// <!-- DOM  Routing -->
+
+
+// Routing
+// ------
+
+
+// 1 .NEW terminal : npm install react-router-dom
+
+
+// 2. Main.jsx:
+// --------
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     <BrowserRouter>
+//     <App />
+//     </BrowserRouter>
+   
+//   </StrictMode>,
+// )
+
+
+
+
+
+
+//          BACKEND CREATION USING JSON-SERVER
+// ------------------------------------------------------------------------------------------------
+
+
+//         1 Create a folder named as  (nameof project)-backend
+//         2 Inside it , create a package.json file => npm init or npm init -y
+//         3 Install json-server => npm install json-server :npm i json-server@.17.4
+//         4 create db.json file
+//         5 Run the file => npx json-server db.json
+
+
+// API Fetching - Using AXIOS
+// ------------------------------------------------------------------------------------------------
+
+//         1.Axios is a popular open-source JavaScript library used to make HTTP requests from web browsers or Node.js environments.
+//         It simplifies the process of sending asynchronous HTTP requests to REST endpoints, handling responses, and performing various network-related tasks.
+
+//         Built on top of JavaScript’s native XMLHttpRequest and the fetch API, Axios offers a more user-friendly API with features like interceptors, automatic JSON data transformation, error handling, and support for older browsers.
+
+//         Key Features of Axios
+
+//         Promise-Based: Axios uses Promises, making it easier to handle asynchronous requests with modern JavaScript features like async/await.
+//         Interceptors: Allows you to intercept and modify requests or responses before they are handled by .then() or .catch().
+//         Automatic JSON Data Transformation: Automatically transforms JSON data to JavaScript objects, making data manipulation simpler.
+//         Request and Response Timeout: Enables setting timeouts to avoid hanging requests.
+//         Cancel Requests: Allows cancellation of requests to manage resources effectively.
+//         Error Handling: Provides a structured way to handle HTTP errors using the catch() method.
+//         Supports All HTTP Methods: Including GET, POST, PUT, DELETE, PATCH, and more.
+//         Cross-Site Request Forgery (CSRF) Protection: Easily supports security features like CSRF by managing tokens.
+
+
+
+//        Step 1: Installing via npm
+//        To install Axios in a Node.js project, run:
+
+//   npm install axios
+
+
+
+//   create  services folder in frontend folder
+//   1. allAPI.js
+//   2. commonAPI.js
+//   3. serverUrl.js
+
+  
+
+//  <!-- sweetalert -->
+
+//   https://youtu.be/5V2B28OqfqM?si=Tri4XKWUl9svUPqO
+
+// <!-- import  in add vedio -->
+//   import Swal from 'sweetalert2'
+// <!-- card alert -->
+//   Swal.fire({
+//                 title: 'Error!',
+//                 text: 'Please fill all the fields',
+//                 icon: 'error',
+//                 confirmButtonText: 'Back'
+//               })

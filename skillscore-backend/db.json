@@ -1,0 +1,1073 @@
+{
+  "teacherdata": [
+    {
+      "id": "42a9",
+      "staffId": "1234",
+      "staffName": "sneha",
+      "staffSubject": "english",
+      "email": "sneha@gmail.com",
+      "password": "70214625",
+      "confirmPassword": "70214625",
+      "phone": "9889123423"
+    },
+    {
+      "id": "6dcb",
+      "staffId": "CH1",
+      "staffName": "chinnu",
+      "staffSubject": "malayalm",
+      "email": "chinnu@gmail.com",
+      "password": "70214625",
+      "confirmPassword": "70214625",
+      "phone": "9812431234"
+    },
+    {
+      "id": "732f",
+      "staffId": "HW2",
+      "staffName": "abin",
+      "staffSubject": "chemistry",
+      "email": "abin@gmail.com",
+      "password": "1234567",
+      "confirmPassword": "1234567",
+      "phone": "8712321612"
+    },
+    {
+      "id": "b832",
+      "staffId": "RN1",
+      "staffName": "reena",
+      "staffSubject": "chemistry",
+      "email": "reena@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "phone": "7612352561"
+    },
+    {
+      "id": "dba7",
+      "staffId": "BY2",
+      "staffName": "benny",
+      "staffSubject": "physics",
+      "email": "benny@gmail.com",
+      "password": "96561519",
+      "confirmPassword": "96561519",
+      "phone": "8712431567"
+    },
+    {
+      "id": "ecd7",
+      "staffId": "MM3",
+      "staffName": "melvera",
+      "staffSubject": "biology",
+      "email": "melvera@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "phone": "9812341578"
+    },
+    {
+      "id": "9480",
+      "staffId": "TS7",
+      "staffName": "thomas",
+      "staffSubject": "maths",
+      "email": "thomas@gmail.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "phone": "1234567890"
+    }
+  ],
+  "addstudent": [
+    {
+      "id": "20rt362",
+      "name": "leomon siby",
+      "email": "leomon@gmail.com",
+      "parentsPhone": "8712346512",
+      "password": "70214625J",
+      "Class": "12B"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "498a",
+      "month": 4,
+      "attendance": {
+        "09778111879": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": true,
+          "8": true,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false,
+          "24": false,
+          "25": false,
+          "26": false,
+          "27": false,
+          "28": false,
+          "29": false,
+          "30": false
+        },
+        "20rt362": {
+          "14": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false
+        }
+      }
+    },
+    {
+      "id": "2954",
+      "month": 2,
+      "attendance": {
+        "20rt234": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true,
+          "6": true,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false,
+          "24": false,
+          "25": false,
+          "26": false,
+          "27": false,
+          "28": false,
+          "29": false,
+          "30": false,
+          "31": false
+        },
+        "30rt362": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": false,
+          "6": false,
+          "7": false,
+          "8": false,
+          "9": false,
+          "10": false,
+          "11": false,
+          "12": false,
+          "13": false,
+          "14": false,
+          "15": false,
+          "16": false,
+          "17": false,
+          "18": false,
+          "19": false,
+          "20": false,
+          "21": false,
+          "22": false,
+          "23": false,
+          "24": false,
+          "25": false,
+          "26": false,
+          "27": false,
+          "28": false,
+          "29": false,
+          "30": false,
+          "31": false
+        },
+        "20rt362": {
+          "1": true,
+          "2": true,
+          "3": true,
+          "4": true,
+          "5": true
+        }
+      }
+    }
+  ],
+  "marks": [
+    {
+      "id": "ac0e",
+      "marks": {
+        "7021": {
+          "MATHS(25)": 20,
+          "PHYSICS(25)": 12,
+          "CHEMISTRY(25)": 12,
+          "PYTHON(25)": 12
+        },
+        "20rt362": {
+          "Math": 22,
+          "Science": 22,
+          "English": 22,
+          "History": 24,
+          "MATHS(25)": 9,
+          "PHYSICS(25)": 12,
+          "CHEMISTRY(25)": 11,
+          "PYTHON(25)": 12
+        },
+        "09778111879": {
+          "CHEMISTRY(25)": 25,
+          "MATHS(25)": 25,
+          "PHYSICS(25)": 25,
+          "PYTHON(25)": 25
+        },
+        "20rt456": {
+          "MATHS(25)": 25,
+          "PHYSICS(25)": 25,
+          "CHEMISTRY(25)": 25,
+          "PYTHON(25)": 25
+        },
+        "20rt234": {
+          "MATHS(25)": 12,
+          "PHYSICS(25)": 22,
+          "CHEMISTRY(25)": 11,
+          "PYTHON(25)": 10
+        },
+        "30rt362": {
+          "MATHS(25)": 20,
+          "PHYSICS(25)": 22,
+          "CHEMISTRY(25)": 15,
+          "PYTHON(25)": 24
+        },
+        "12rt4": {
+          "MATHS(25)": 12,
+          "PHYSICS(25)": 15,
+          "CHEMISTRY(25)": 20,
+          "PYTHON(25)": 24
+        },
+        "L234": {
+          "MATHS(25)": 12,
+          "PHYSICS(25)": 20,
+          "CHEMISTRY(25)": 22,
+          "PYTHON(25)": 21
+        },
+        "L1211": {
+          "MATHS(25)": 18,
+          "PHYSICS(25)": 1,
+          "CHEMISTRY(25)": 22,
+          "PYTHON(25)": 12
+        }
+      }
+    },
+    {
+      "id": "504e",
+      "marks": {
+        "7021": {
+          "MATHS(25)": 20,
+          "PHYSICS(25)": 12,
+          "CHEMISTRY(25)": 12,
+          "PYTHON(25)": 12
+        },
+        "20rt362": {
+          "Math": 22,
+          "Science": 22,
+          "English": 22,
+          "History": 24,
+          "MATHS(25)": 12,
+          "PHYSICS(25)": 12,
+          "CHEMISTRY(25)": 8,
+          "PYTHON(25)": 14
+        },
+        "09778111879": {
+          "CHEMISTRY(25)": 25,
+          "MATHS(25)": 25,
+          "PHYSICS(25)": 25,
+          "PYTHON(25)": 25
+        },
+        "20rt456": {
+          "MATHS(25)": 25,
+          "PHYSICS(25)": 25,
+          "CHEMISTRY(25)": 25,
+          "PYTHON(25)": 25
+        },
+        "20rt234": {
+          "MATHS(25)": 12,
+          "PHYSICS(25)": 22,
+          "CHEMISTRY(25)": 11,
+          "PYTHON(25)": 10
+        },
+        "30rt362": {
+          "MATHS(25)": 20,
+          "PHYSICS(25)": 22,
+          "CHEMISTRY(25)": 15,
+          "PYTHON(25)": 24
+        },
+        "12rt4": {
+          "MATHS(25)": 12,
+          "PHYSICS(25)": 15,
+          "CHEMISTRY(25)": 20,
+          "PYTHON(25)": 24
+        },
+        "L234": {
+          "MATHS(25)": 12,
+          "PHYSICS(25)": 20,
+          "CHEMISTRY(25)": 22,
+          "PYTHON(25)": 21
+        },
+        "L1211": {
+          "MATHS(25)": 18,
+          "PHYSICS(25)": 1,
+          "CHEMISTRY(25)": 22,
+          "PYTHON(25)": 12
+        }
+      }
+    }
+  ],
+  "timetable": [
+    {
+      "0": [
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        }
+      ],
+      "1": [
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        }
+      ],
+      "2": [
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        }
+      ],
+      "3": [
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        }
+      ],
+      "4": [
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        }
+      ],
+      "id": "84cd"
+    },
+    {
+      "0": [
+        {
+          "id": "ecd7",
+          "staffId": "MM3",
+          "staffName": "melvera",
+          "staffSubject": "biology",
+          "email": "melvera@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "9812341578"
+        },
+        {
+          "id": "732f",
+          "staffId": "HW2",
+          "staffName": "abin",
+          "staffSubject": "chemistry",
+          "email": "abin@gmail.com",
+          "password": "1234567",
+          "confirmPassword": "1234567",
+          "phone": "8712321612"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "ecd7",
+          "staffId": "MM3",
+          "staffName": "melvera",
+          "staffSubject": "biology",
+          "email": "melvera@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "9812341578"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "ecd7",
+          "staffId": "MM3",
+          "staffName": "melvera",
+          "staffSubject": "biology",
+          "email": "melvera@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "9812341578"
+        },
+        {
+          "id": "dba7",
+          "staffId": "BY2",
+          "staffName": "benny",
+          "staffSubject": "physics",
+          "email": "benny@gmail.com",
+          "password": "96561519",
+          "confirmPassword": "96561519",
+          "phone": "8712431567"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "ecd7",
+          "staffId": "MM3",
+          "staffName": "melvera",
+          "staffSubject": "biology",
+          "email": "melvera@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "9812341578"
+        }
+      ],
+      "1": [
+        {
+          "id": "6dcb",
+          "staffId": "CH1",
+          "staffName": "chinnu",
+          "staffSubject": "malayalm",
+          "email": "chinnu@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9812431234"
+        },
+        {
+          "id": "9480",
+          "staffId": "TS7",
+          "staffName": "thomas",
+          "staffSubject": "maths",
+          "email": "thomas@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "1234567890"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "dba7",
+          "staffId": "BY2",
+          "staffName": "benny",
+          "staffSubject": "physics",
+          "email": "benny@gmail.com",
+          "password": "96561519",
+          "confirmPassword": "96561519",
+          "phone": "8712431567"
+        },
+        {
+          "id": "9480",
+          "staffId": "TS7",
+          "staffName": "thomas",
+          "staffSubject": "maths",
+          "email": "thomas@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "1234567890"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "6dcb",
+          "staffId": "CH1",
+          "staffName": "chinnu",
+          "staffSubject": "malayalm",
+          "email": "chinnu@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9812431234"
+        }
+      ],
+      "2": [
+        {
+          "id": "b832",
+          "staffId": "RN1",
+          "staffName": "reena",
+          "staffSubject": "chemistry",
+          "email": "reena@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "7612352561"
+        },
+        {
+          "id": "732f",
+          "staffId": "HW2",
+          "staffName": "abin",
+          "staffSubject": "chemistry",
+          "email": "abin@gmail.com",
+          "password": "1234567",
+          "confirmPassword": "1234567",
+          "phone": "8712321612"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "732f",
+          "staffId": "HW2",
+          "staffName": "abin",
+          "staffSubject": "chemistry",
+          "email": "abin@gmail.com",
+          "password": "1234567",
+          "confirmPassword": "1234567",
+          "phone": "8712321612"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "b832",
+          "staffId": "RN1",
+          "staffName": "reena",
+          "staffSubject": "chemistry",
+          "email": "reena@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "7612352561"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "ecd7",
+          "staffId": "MM3",
+          "staffName": "melvera",
+          "staffSubject": "biology",
+          "email": "melvera@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "9812341578"
+        }
+      ],
+      "3": [
+        {
+          "id": "dba7",
+          "staffId": "BY2",
+          "staffName": "benny",
+          "staffSubject": "physics",
+          "email": "benny@gmail.com",
+          "password": "96561519",
+          "confirmPassword": "96561519",
+          "phone": "8712431567"
+        },
+        {
+          "id": "b832",
+          "staffId": "RN1",
+          "staffName": "reena",
+          "staffSubject": "chemistry",
+          "email": "reena@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "7612352561"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "dba7",
+          "staffId": "BY2",
+          "staffName": "benny",
+          "staffSubject": "physics",
+          "email": "benny@gmail.com",
+          "password": "96561519",
+          "confirmPassword": "96561519",
+          "phone": "8712431567"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "ecd7",
+          "staffId": "MM3",
+          "staffName": "melvera",
+          "staffSubject": "biology",
+          "email": "melvera@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "9812341578"
+        },
+        {
+          "id": "ecd7",
+          "staffId": "MM3",
+          "staffName": "melvera",
+          "staffSubject": "biology",
+          "email": "melvera@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "9812341578"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "b832",
+          "staffId": "RN1",
+          "staffName": "reena",
+          "staffSubject": "chemistry",
+          "email": "reena@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "7612352561"
+        }
+      ],
+      "4": [
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "732f",
+          "staffId": "HW2",
+          "staffName": "abin",
+          "staffSubject": "chemistry",
+          "email": "abin@gmail.com",
+          "password": "1234567",
+          "confirmPassword": "1234567",
+          "phone": "8712321612"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "dba7",
+          "staffId": "BY2",
+          "staffName": "benny",
+          "staffSubject": "physics",
+          "email": "benny@gmail.com",
+          "password": "96561519",
+          "confirmPassword": "96561519",
+          "phone": "8712431567"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "42a9",
+          "staffId": "1234",
+          "staffName": "sneha",
+          "staffSubject": "english",
+          "email": "sneha@gmail.com",
+          "password": "70214625",
+          "confirmPassword": "70214625",
+          "phone": "9889123423"
+        },
+        {
+          "id": "9480",
+          "staffId": "TS7",
+          "staffName": "thomas",
+          "staffSubject": "maths",
+          "email": "thomas@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "1234567890"
+        },
+        {
+          "type": "Break"
+        },
+        {
+          "id": "ecd7",
+          "staffId": "MM3",
+          "staffName": "melvera",
+          "staffSubject": "biology",
+          "email": "melvera@gmail.com",
+          "password": "123456",
+          "confirmPassword": "123456",
+          "phone": "9812341578"
+        }
+      ],
+      "id": "e16e"
+    }
+  ],
+  "Coursevedio": [
+    {
+      "id": "0520",
+      "caption": "Plus Two Physics ",
+      "description": " Chapter 1",
+      "imgUrl": "https://i.ytimg.com/vi/Lf5wKHmPVQg/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/Lf5wKHmPVQg?si=Wm15yLTVsqx3wvQX"
+    },
+    {
+      "id": "1dad",
+      "caption": "Plus Two - Physics",
+      "description": "Alternating Current | Full Chapter Revision ",
+      "imgUrl": "https://i.ytimg.com/vi/bFkMu0TlZyE/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/bFkMu0TlZyE?si=aCcL0bYKvUyqkmb_"
+    }
+  ]
+}

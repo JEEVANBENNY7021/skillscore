@@ -1,0 +1,159 @@
+body{
+  background-color: rgb(15, 14, 14);
+}
+.carousel-image {
+  border-radius: 30px;
+    margin-top: 20px;
+    height: 600px; /* Set a fixed height */
+    width: 100%; /* Ensure full width */
+    object-fit: cover; /* Ensure the images cover the area without distortion */
+    display: block; /* Make sure images are block elements */
+  }
+  
+  /* Optional: Add some styling for the carousel captions */
+  .carousel-caption {
+    background-color: rgba(112, 110, 110, 0.5); /* Dark background for better readability */
+    padding: 10px; /* Padding for captions */
+  }
+  
+  .carousel-box {
+    position: absolute;
+    left: -10px;
+    top: -350px;
+    
+    background-color: rgba(107, 106, 106, 0.7); /* Semi-transparent background */
+    padding: 40px;
+    color: #000000;
+    border-radius: 8px;
+    max-width: 500px;
+    max-height: 700px;
+  }
+  .carousel-box h3 {
+    margin-bottom: 10px;
+  }
+  .carousel-box ul {
+    padding-left: 10px;
+  }
+  .carousel-box li {
+    margin-bottom: 7px;
+    text-align: justify;
+  }
+  
+  
+  
+  /* About.css */
+  
+  .about-container {
+      margin-top: 80px;
+      padding: 10px; /* Add padding around the container */
+   
+     
+    }
+    
+    .about-row {
+      align-items: center; /* Center items vertically */
+    }
+    
+    .about-image-col {
+      display: flex;
+      text-align: justify;
+      justify-content: center; /* Center the image horizontally */
+      padding-right: 20px; /* Add space to the right of the image */
+    }
+    
+    .custom-about {
+      max-width: 100%; /* Ensure the image is responsive */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 10px; /* Optional: add border-radius for the image */
+    }
+    
+    .about-title {
+      font-size: 2.5rem; /* Increase the font size */
+      color: #ffffff; /* Dark color for the title */
+      margin-bottom: 20px; /* Space below the title */
+    }
+    
+    .about-description {
+      text-align: justify;
+      font-size: 1.2rem; /* Adjust font size for readability */
+      color: #7d7d7d; /* Lighter color for the description */
+      line-height: 1.6; /* Improved line spacing */
+    }
+  
+  
+  
+  
+    .mission-container {
+      text-align: justify;
+      background-color: #f9f9f9; /* Light background color */
+      padding: 40px 20px; /* Padding for space around content */
+      margin-top: 30px; /* Space between sections */
+      border-radius: 8px; /* Slightly rounded corners */
+      box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+    }
+    
+  
+    .mission h1 {
+      font-size: 2.5rem; /* Larger font size for the heading */
+      color: #000000; /* Dark color for the heading */
+      margin-bottom: 20px; /* Space below the heading */
+    }
+    
+    .mission p {
+      font-size: 1.2rem; /* Slightly larger font for better readability */
+      color: #000000; /* Medium gray color for the paragraph */
+      line-height: 1.6; /* Improved line height for readability */
+      max-width: 100%; /* Maximum width for the paragraph */
+      margin: 0 auto; /* Center the paragraph */
+    }
+    
+  
+    .keyfeatures {
+      padding-top: 40px;
+    
+      margin-top: 0px 0; /* Space above and below key features section */
+    }
+    .keyfeatures h1,h3 {
+      color: rgb(255, 255, 255);
+    }
+    
+    .feature-card {
+      margin-bottom: 20px; /* Space between cards */
+      border: 1px solid #000000; /* Light border */
+      border-radius: 8px; /* Slightly rounded corners */
+      transition: transform 0.2s ease, background-color 0.3s ease; /* Animation effect on hover */
+      height: 350px; /* Set a fixed height for uniformity */
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-5px); /* Slight lift effect on hover */
+      background-color: #ff0000; /* Change background color on hover */
+      color: #000000; /* Change text color on hover */
+    }
+    
+    .feature-card .card-title {
+      font-size: 1.5rem; /* Increase title font size */
+      font-weight: bold; /* Bold title */
+      margin-bottom: 10px; /* Space below title */
+    }
+    
+    .feature-card .card-text {
+      font-size: 1rem; /* Standard font size for text */
+      line-height: 1.5; /* Increase line height for readability */
+    }
+    
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+      .about-row {
+        flex-direction: column; /* Stack columns on small screens */
+      }
+      
+      .about-image-col,
+      .about-text-col {
+        width: 100%; /* Full width on small screens */
+      }
+    
+      .feature-card {
+        height: auto; /* Let cards adjust height on small screens */
+      }
+    }

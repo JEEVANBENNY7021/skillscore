@@ -1,0 +1,136 @@
+.add-student-form {
+    max-width: 1200px;
+    margin: 20px auto; /* Center form horizontally */
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: space-between; /* Space between items */
+}
+
+.add-student-form h2 {
+    width: 100%; /* Ensure the heading takes full width */
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+}
+
+.add-student-form input {
+    width: calc(48% - 10px); /* Adjust width to fit two inputs in a row */
+    padding: 10px;
+    margin: 15px 0; /* Margin for spacing above and below */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    transition: border-color 0.3s;
+}
+
+.add-student-form input:focus {
+    border-color: #000000;
+    outline: none;
+}
+
+.add-student-form button {
+    padding: 10px 15px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    width: 100%; /* Full width for the button */
+}
+
+.add-student-form button:hover {
+    background-color: #000000;
+}
+
+.students-table {
+    width: 100%; /* Set table width to 100% */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.students-table th, .students-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.students-table th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+}
+
+.students-table tr:hover {
+    background-color: #f9f9f9; /* Highlight row on hover */
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start; /* Align buttons to the left */
+    gap: 10px; /* Space between buttons */
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .add-student-form input {
+        width: 100%; /* Full width for inputs on smaller screens */
+    }
+
+    .students-table {
+        width: 100%; /* Ensure table takes full width on small screens */
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .students-table th, .students-table td {
+        padding: 8px; /* Smaller padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .add-student-form {
+        padding: 10px; /* Less padding on very small screens */
+    }
+
+    .add-student-form h2 {
+        font-size: 18px; /* Adjust heading size */
+    }
+
+    .students-table {
+        font-size: 12px; /* Smaller font size for very small screens */
+    }
+}
